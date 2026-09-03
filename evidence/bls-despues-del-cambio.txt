@@ -1,0 +1,4 @@
+/boot/loader/entries/MACHINEID-REDACTED-7.1.12-200.fc44.x86_64.conf:options root=UUID=UUID-ROOT-REDACTED ro rootflags=subvol=root rhgb quiet $tuned_params processor.max_cstate=2 nvme_core.default_ps_max_latency_us=0 pcie_aspm=off pcie_ports=native amdgpu.ppfeaturemask=0xfff73fff
+/boot/loader/entries/MACHINEID-REDACTED-6.19.10-300.fc44.x86_64.conf:options root=UUID=UUID-ROOT-REDACTED ro rootflags=subvol=root rhgb quiet $tuned_params processor.max_cstate=2 nvme_core.default_ps_max_latency_us=0 pcie_aspm=off pcie_ports=native amdgpu.ppfeaturemask=0xfff73fff
+/boot/loader/entries/MACHINEID-REDACTED-0-rescue.conf:options root=UUID=UUID-ROOT-REDACTED ro rootflags=subvol=root rhgb quiet processor.max_cstate=2 nvme_core.default_ps_max_latency_us=0 pcie_aspm=off pcie_ports=native amdgpu.ppfeaturemask=0xfff73fff
+GRUB_CMDLINE_LINUX="rhgb quiet processor.max_cstate=2 nvme_core.default_ps_max_latency_us=0 pcie_aspm=off pcie_ports=native amdgpu.ppfeaturemask=0xfff73fff"

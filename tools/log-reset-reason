@@ -1,0 +1,15 @@
+#!/bin/bash
+# Registra en /var/log/motivo-reset.log el motivo del reset anterior que decodifica el kernel
+# (x86/amd: Previous system reset reason ...), junto con fecha, boot-id, kernel y cmdline.
+LOG=/var/log/motivo-reset.log
+BOOTID=$(cat /proc/sys/kernel/random/boot_id)
+KERNEL=$(uname -r)
+REASON=$(journalctl -b 0 -k --no-pager -o cat 2>/dev/null | grep -m1 'Previous system reset reason' || dmesg 2>/dev/null | grep -m1 'Previous system reset reason' || echo 'x86/amd: (sin mensaje de reset reason)')
+PREV_END=$(journalctl -b -1 --no-pager -o short-iso 2>/dev/null | tail -1 | awk '{print $1}')
+{
+  echo "=== $(date -Is) boot_id=$BOOTID kernel=$KERNEL"
+  echo "    ${REASON#*kernel: }"
+  echo "    ultimo_log_boot_anterior=${PREV_END:-desconocido}"
+  echo "    cmdline=$(cat /proc/cmdline)"
+} >> "$LOG"
+sync

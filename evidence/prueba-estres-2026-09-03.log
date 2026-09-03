@@ -1,0 +1,94 @@
+===== INICIO 2026-09-03T11:45:41-05:00 boot_id=BOOTID-REDACTED duracion=15m
+cmdline: BOOT_IMAGE=(hd0,gpt2)/vmlinuz-7.1.12-200.fc44.x86_64 root=UUID=UUID-ROOT-REDACTED ro rootflags=subvol=root rhgb quiet processor.max_cstate=2 nvme_core.default_ps_max_latency_us=0 pcie_ports=native amdgpu.ppfeaturemask=0xfff73fff pcie_aspm.policy=performance
+motivo reset previo: Previous system reset reason [0x00080800]: software wrote 0x6 to reset control register 0xCF9
+11:45:41 load=1.01 0.67 0.27 cpu=40C gpu=38C nvme=35C freq=2415MHz used=1926M avail=5228M swap=0M  psi=avg10=0.00
+stress-ng: info:  [5525] setting to a 15 mins run per stressor
+stress-ng: info:  [5525] dispatching hogs: 6 cpu, 2 vm, 2 io, 1 hdd
+stress-ng: info:  [5525] note: 8 cpus have scaling governors set to powersave and this may impact performance; setting /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor to 'performance' may improve performance
+stress-ng: info:  [5550] vm: using 512MB per stressor instance (total 1GB of 3.32GB available memory)
+stress-ng: info:  [5552] io: this is a legacy I/O sync stressor, consider using iomix instead
+stress-ng: info:  [5554] hdd: using 1GB file system space per stressor instance (total 1GB of 425.41GB available file system space)
+11:46:01 load=4.12 1.41 0.52 cpu=92C gpu=65C nvme=37C freq=3538MHz used=2862M avail=4293M swap=0M  psi=avg10=0.00
+11:46:21 load=6.64 2.16 0.79 cpu=92C gpu=67C nvme=38C freq=3576MHz used=3027M avail=4127M swap=0M  psi=avg10=0.00
+11:46:41 load=8.02 2.77 1.02 cpu=92C gpu=67C nvme=39C freq=3624MHz used=2568M avail=4586M swap=0M  psi=avg10=0.00
+11:47:01 load=9.69 3.49 1.30 cpu=92C gpu=69C nvme=40C freq=3670MHz used=2228M avail=4926M swap=0M  psi=avg10=0.00
+11:47:21 load=10.53 4.09 1.54 cpu=92C gpu=70C nvme=42C freq=3595MHz used=3006M avail=4148M swap=0M  psi=avg10=0.00
+stress-ng: info:  [5556] vm: x86 movdiri instruction not supported, dropping back to plain 64 bit writes
+11:47:42 load=10.88 4.59 1.76 cpu=92C gpu=67C nvme=42C freq=3493MHz used=3046M avail=4108M swap=0M  psi=avg10=0.00
+11:48:02 load=11.41 5.12 1.99 cpu=92C gpu=67C nvme=43C freq=3515MHz used=3080M avail=4074M swap=0M  psi=avg10=0.00
+11:48:22 load=11.50 5.55 2.20 cpu=92C gpu=69C nvme=43C freq=3734MHz used=3121M avail=4033M swap=0M  psi=avg10=0.00
+11:48:42 load=11.80 6.00 2.42 cpu=92C gpu=68C nvme=44C freq=3614MHz used=2646M avail=4508M swap=0M  psi=avg10=0.00
+11:49:03 load=11.65 6.34 2.61 cpu=92C gpu=70C nvme=45C freq=3714MHz used=2640M avail=4515M swap=0M  psi=avg10=0.00
+11:49:23 load=11.89 6.74 2.82 cpu=92C gpu=67C nvme=45C freq=3616MHz used=3106M avail=4048M swap=0M  psi=avg10=0.00
+11:49:43 load=11.86 7.07 3.02 cpu=92C gpu=68C nvme=46C freq=3438MHz used=2952M avail=4202M swap=0M  psi=avg10=0.00
+11:50:03 load=11.84 7.37 3.20 cpu=92C gpu=68C nvme=46C freq=3572MHz used=2285M avail=4870M swap=0M  psi=avg10=0.00
+11:50:23 load=11.67 7.62 3.37 cpu=92C gpu=68C nvme=46C freq=3510MHz used=2598M avail=4557M swap=0M  psi=avg10=0.00
+11:50:43 load=11.48 7.84 3.54 cpu=92C gpu=67C nvme=46C freq=3630MHz used=2377M avail=4777M swap=0M  psi=avg10=0.00
+11:51:03 load=11.48 8.08 3.71 cpu=92C gpu=70C nvme=47C freq=3507MHz used=2568M avail=4586M swap=0M  psi=avg10=0.00
+11:51:23 load=11.64 8.34 3.89 cpu=92C gpu=69C nvme=47C freq=3548MHz used=2945M avail=4210M swap=0M  psi=avg10=0.00
+11:51:44 load=12.15 8.71 4.13 cpu=92C gpu=68C nvme=47C freq=3523MHz used=2920M avail=4234M swap=0M  psi=avg10=0.00
+11:52:04 load=11.96 8.89 4.29 cpu=92C gpu=67C nvme=47C freq=3606MHz used=3189M avail=3965M swap=0M  psi=avg10=0.00
+11:52:24 load=12.14 9.13 4.46 cpu=92C gpu=70C nvme=47C freq=3741MHz used=2685M avail=4469M swap=0M  psi=avg10=0.00
+11:52:44 load=12.33 9.37 4.64 cpu=92C gpu=70C nvme=47C freq=3671MHz used=3044M avail=4110M swap=0M  psi=avg10=0.00
+11:53:04 load=12.30 9.55 4.80 cpu=92C gpu=68C nvme=48C freq=3512MHz used=2728M avail=4426M swap=0M  psi=avg10=0.00
+11:53:24 load=12.17 9.70 4.95 cpu=92C gpu=68C nvme=48C freq=3460MHz used=3007M avail=4147M swap=0M  psi=avg10=0.00
+11:53:45 load=12.35 9.90 5.12 cpu=92C gpu=69C nvme=48C freq=3474MHz used=3092M avail=4062M swap=0M  psi=avg10=0.00
+11:54:05 load=12.24 10.03 5.27 cpu=92C gpu=68C nvme=49C freq=3530MHz used=2141M avail=5014M swap=0M  psi=avg10=0.00
+11:54:25 load=12.09 10.15 5.41 cpu=92C gpu=69C nvme=49C freq=3461MHz used=2955M avail=4200M swap=0M  psi=avg10=0.00
+11:54:45 load=11.78 10.20 5.53 cpu=92C gpu=69C nvme=49C freq=3445MHz used=2607M avail=4547M swap=0M  psi=avg10=0.00
+11:55:05 load=11.69 10.29 5.66 cpu=92C gpu=69C nvme=49C freq=3503MHz used=2497M avail=4658M swap=0M  psi=avg10=0.00
+11:55:25 load=11.63 10.37 5.78 cpu=92C gpu=70C nvme=50C freq=3517MHz used=2892M avail=4263M swap=0M  psi=avg10=0.00
+11:55:46 load=11.59 10.44 5.91 cpu=92C gpu=70C nvme=50C freq=3553MHz used=2389M avail=4765M swap=0M  psi=avg10=0.00
+11:56:06 load=11.50 10.50 6.02 cpu=92C gpu=69C nvme=50C freq=3668MHz used=2676M avail=4478M swap=0M  psi=avg10=0.00
+11:56:26 load=11.80 10.63 6.16 cpu=92C gpu=69C nvme=50C freq=3520MHz used=2937M avail=4217M swap=0M  psi=avg10=0.00
+11:56:46 load=11.98 10.75 6.30 cpu=92C gpu=71C nvme=50C freq=3429MHz used=3057M avail=4097M swap=0M  psi=avg10=0.00
+11:57:06 load=11.92 10.81 6.41 cpu=92C gpu=69C nvme=50C freq=3600MHz used=2545M avail=4609M swap=0M  psi=avg10=0.00
+11:57:26 load=12.02 10.91 6.54 cpu=92C gpu=69C nvme=51C freq=3547MHz used=2789M avail=4366M swap=409M  psi=avg10=0.00
+11:57:46 load=12.28 11.04 6.68 cpu=92C gpu=69C nvme=51C freq=3577MHz used=2760M avail=4394M swap=0M  psi=avg10=0.00
+11:58:06 load=12.49 11.17 6.81 cpu=92C gpu=70C nvme=51C freq=3480MHz used=2952M avail=4203M swap=0M  psi=avg10=0.00
+11:58:27 load=12.62 11.29 6.95 cpu=92C gpu=70C nvme=52C freq=3738MHz used=2595M avail=4560M swap=0M  psi=avg10=0.00
+11:58:48 load=12.44 11.34 7.05 cpu=92C gpu=70C nvme=51C freq=3479MHz used=2962M avail=4193M swap=0M  psi=avg10=0.00
+11:59:08 load=12.80 11.49 7.20 cpu=92C gpu=69C nvme=51C freq=3522MHz used=3000M avail=4154M swap=121M  psi=avg10=0.00
+11:59:28 load=12.64 11.54 7.31 cpu=92C gpu=70C nvme=52C freq=3678MHz used=2140M avail=5014M swap=0M  psi=avg10=0.00
+11:59:49 load=12.46 11.59 7.44 cpu=92C gpu=70C nvme=52C freq=3477MHz used=2645M avail=4509M swap=0M  psi=avg10=0.00
+12:00:09 load=12.25 11.60 7.53 cpu=92C gpu=69C nvme=52C freq=3453MHz used=2837M avail=4317M swap=0M  psi=avg10=0.00
+12:00:29 load=11.89 11.56 7.60 cpu=92C gpu=70C nvme=51C freq=3602MHz used=2754M avail=4401M swap=0M  psi=avg10=0.00
+stress-ng: metrc: [5525] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: metrc: [5525]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: metrc: [5525] cpu             4967613    900.00   4349.12      5.18      5519.56        1140.85
+stress-ng: metrc: [5525] vm             52170596    900.31   1032.17    408.93     57947.51       36201.88
+stress-ng: metrc: [5525] io                12895    900.03      0.38    104.32        14.33         123.16
+stress-ng: metrc: [5525] hdd            11800813    900.00    168.53    547.18     13112.08       16488.18
+stress-ng: info:  [5525] skipped: 0
+stress-ng: info:  [5525] passed: 11: cpu (6) vm (2) io (2) hdd (1)
+stress-ng: info:  [5525] failed: 0
+stress-ng: info:  [5525] metrics untrustworthy: 0
+stress-ng: info:  [5525] successful run completed in 15 mins
+===== FIN 2026-09-03T12:00:41-05:00 stress-ng rc=0 (0 = completo sin reset)
+===== CURVA DE ENFRIAMIENTO (prueba indirecta del ventilador) 2026-09-03T12:00:42-05:00
+12:00:42 t+0s cpu=76C gpu=56C acpitz=63C freq=1694MHz load=11.92
+12:00:47 t+5s cpu=57C gpu=51C acpitz=61C freq=1295MHz load=10.96
+12:00:52 t+10s cpu=52C gpu=48C acpitz=60C freq=1503MHz load=10.08
+12:00:58 t+15s cpu=50C gpu=47C acpitz=59C freq=1928MHz load=9.28
+12:01:03 t+20s cpu=48C gpu=45C acpitz=57C freq=1681MHz load=8.53
+12:01:08 t+25s cpu=47C gpu=44C acpitz=56C freq=1528MHz load=7.85
+12:01:13 t+30s cpu=46C gpu=43C acpitz=55C freq=1535MHz load=7.22
+12:01:18 t+35s cpu=45C gpu=43C acpitz=53C freq=1567MHz load=6.64
+12:01:23 t+40s cpu=45C gpu=43C acpitz=52C freq=1467MHz load=6.11
+12:01:28 t+45s cpu=44C gpu=42C acpitz=51C freq=1553MHz load=5.62
+12:01:33 t+50s cpu=44C gpu=41C acpitz=50C freq=1541MHz load=5.17
+12:01:38 t+55s cpu=43C gpu=40C acpitz=50C freq=1982MHz load=4.76
+12:01:43 t+60s cpu=43C gpu=40C acpitz=49C freq=1737MHz load=4.37
+12:01:48 t+65s cpu=43C gpu=40C acpitz=49C freq=1371MHz load=4.02
+12:01:53 t+70s cpu=42C gpu=40C acpitz=48C freq=2019MHz load=3.70
+12:01:58 t+75s cpu=42C gpu=39C acpitz=47C freq=1406MHz load=3.40
+12:02:03 t+80s cpu=42C gpu=39C acpitz=46C freq=1406MHz load=3.13
+12:02:08 t+85s cpu=42C gpu=40C acpitz=46C freq=1336MHz load=2.88
+12:02:13 t+90s cpu=42C gpu=39C acpitz=45C freq=1754MHz load=2.65
+12:02:18 t+95s cpu=41C gpu=39C acpitz=45C freq=1566MHz load=2.44
+12:02:23 t+100s cpu=41C gpu=38C acpitz=44C freq=1389MHz load=2.24
+12:02:28 t+105s cpu=41C gpu=38C acpitz=44C freq=1854MHz load=2.06
+12:02:33 t+110s cpu=41C gpu=38C acpitz=44C freq=1637MHz load=1.98
+12:02:38 t+115s cpu=41C gpu=38C acpitz=43C freq=1542MHz load=1.82
+12:02:43 t+120s cpu=41C gpu=39C acpitz=43C freq=1906MHz load=1.67
+===== FIN CURVA 2026-09-03T12:02:48-05:00

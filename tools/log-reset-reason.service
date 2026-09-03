@@ -1,0 +1,13 @@
+[Unit]
+Description=Registrar el motivo del reset anterior (AMD S5_RESET_STATUS) en /var/log/motivo-reset.log
+After=systemd-journald.service
+DefaultDependencies=no
+Before=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/log-reset-reason
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

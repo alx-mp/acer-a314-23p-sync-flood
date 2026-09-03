@@ -1,0 +1,8 @@
+{
+  "HighEfficiencyModeEnabled": true,
+  "MemorySaverModeSavings": 2,
+  "TabDiscardingExceptions": [
+    
+    "example.com"
+  ]
+}

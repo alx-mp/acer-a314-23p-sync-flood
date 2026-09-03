@@ -1,0 +1,4 @@
+state0 POLL latency=0 usage=559 time=16324
+state1 C1 latency=1 usage=15741 time=1215550
+state2 C2 latency=18 usage=40678 time=14721761
+state3 C3 latency=350 usage=53618 time=157190023

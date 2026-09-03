@@ -1,0 +1,11 @@
+[Unit]
+Description=Mitigacion runtime contra resets AMD data fabric sync flood (C3 off, NVMe APST off, PCIe ASPM off)
+After=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/syncflood-mitigation
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

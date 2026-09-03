@@ -1,0 +1,4 @@
+=== 2026-09-03T11:33:50-05:00 boot_id=BOOTID-REDACTED kernel=7.1.12-200.fc44.x86_64
+    x86/amd: Previous system reset reason [0x08000800]: an uncorrected error caused a data fabric sync flood event
+    ultimo_log_boot_anterior=2026-09-03T11:28:49-05:00
+    cmdline=BOOT_IMAGE=(hd0,gpt2)/vmlinuz-7.1.12-200.fc44.x86_64 root=UUID=UUID-ROOT-REDACTED ro rootflags=subvol=root rhgb quiet

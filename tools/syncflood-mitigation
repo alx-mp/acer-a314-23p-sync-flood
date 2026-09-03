@@ -1,0 +1,11 @@
+#!/bin/bash
+# Respaldo en runtime de las mitigaciones contra "data fabric sync flood" (AMD 0x08000800).
+# Los parametros de kernel (processor.max_cstate=2 nvme_core.default_ps_max_latency_us=0 pcie_aspm=off
+# pcie_ports=native amdgpu.ppfeaturemask=0xfff73fff) son la via principal; esto reaplica lo posible en caliente.
+# 1) Deshabilitar estados C mas profundos que C2 (C3 = CC6/paquete)
+for f in /sys/devices/system/cpu/cpu*/cpuidle/state[3-9]/disable; do [ -e "$f" ] && echo 1 > "$f"; done
+# 2) Desactivar APST del NVMe (Autonomous Power State Transition)
+if command -v nvme >/dev/null 2>&1 && [ -e /dev/nvme0 ]; then nvme set-feature /dev/nvme0 -f 0x0c -v 0 >/dev/null 2>&1 || true; fi
+# 3) Politica ASPM sin estados de bajo consumo
+[ -w /sys/module/pcie_aspm/parameters/policy ] && echo performance > /sys/module/pcie_aspm/parameters/policy 2>/dev/null || true
+exit 0

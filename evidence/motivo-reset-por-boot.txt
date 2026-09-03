@@ -1,0 +1,10 @@
+boot -9: x86/amd: Previous system reset reason [0x00080800]: software wrote 0x6 to reset control register 0xCF9
+boot -8: x86/amd: Previous system reset reason [0x00080800]: software wrote 0x6 to reset control register 0xCF9
+boot -7: x86/amd: Previous system reset reason [0x08000800]: an uncorrected error caused a data fabric sync flood event
+boot -6: x86/amd: Previous system reset reason [0x08000800]: an uncorrected error caused a data fabric sync flood event
+boot -5: x86/amd: Previous system reset reason [0x08000800]: an uncorrected error caused a data fabric sync flood event
+boot -4: x86/amd: Previous system reset reason [0x08000800]: an uncorrected error caused a data fabric sync flood event
+boot -3: x86/amd: Previous system reset reason [0x08000800]: an uncorrected error caused a data fabric sync flood event
+boot -2: x86/amd: Previous system reset reason [0x08000800]: an uncorrected error caused a data fabric sync flood event
+boot -1: x86/amd: Previous system reset reason [0x08000800]: an uncorrected error caused a data fabric sync flood event
+boot 0: x86/amd: Previous system reset reason [0x08000800]: an uncorrected error caused a data fabric sync flood event
