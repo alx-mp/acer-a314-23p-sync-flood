@@ -127,3 +127,9 @@ A 15-minute `stress-ng` run (`--cpu 6 --cpu-method all --vm 2 --vm-bytes 1G --vm
 ### Attachments
 
 `boots.txt`, `motivo-reset-por-boot.txt`, `motivo-reset.log`, `dmesg-boot0.txt`, `lspci-vvnn.txt`, `dmidecode.txt`, `nvme-smart-log.txt`, `paquetes.txt`, `cpuidle-antes-del-cambio.txt`, `bls-despues-del-cambio.txt`, `prueba-estres-2026-09-03.log`
+
+
+---
+
+All logs, the full boot table and the stress test results are published at
+https://github.com/alx-mp/acer-a314-23p-sync-flood

@@ -75,3 +75,9 @@ https://gitlab.freedesktop.org/drm/amd/-/work_items/3556
 Happy to provide full logs, lspci -vvnn, dmidecode and the stress test output.
 
 Thanks,
+
+
+---
+
+All logs, the full boot table and the stress test results are published at
+https://github.com/alx-mp/acer-a314-23p-sync-flood

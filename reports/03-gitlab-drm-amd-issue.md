@@ -66,3 +66,9 @@ https://gitlab.freedesktop.org/drm/amd/-/issues/4841 — same reset message on a
 ## Question for AMD
 
 Is there a known interaction on Mendocino between GFXOFF (or the display engine's system-memory scanout) and the data fabric that can raise an uncorrected fabric error, and is there a recommended firmware level or quirk? If the sync flood is expected to be diagnosable only from the BIOS side, please say so, so the report can be redirected to Acer.
+
+
+---
+
+All logs, the full boot table and the stress test results are published at
+https://github.com/alx-mp/acer-a314-23p-sync-flood

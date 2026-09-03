@@ -58,3 +58,9 @@ This is filed separately from, and is **not** the cause of, the spontaneous hard
 ### Attachments
 
 `dmesg-boot0.txt`, `paquetes.txt`, `lspci-vvnn.txt`
+
+
+---
+
+All logs, the full boot table and the stress test results are published at
+https://github.com/alx-mp/acer-a314-23p-sync-flood

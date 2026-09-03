@@ -55,3 +55,5 @@ Kind regards,
 | `nvme-smart-log.txt` | SSD health report |
 | `lspci-vvnn.txt` | PCI device and link state inventory |
 | `prueba-estres-2026-09-03.log` | 15-minute stress test with temperature curve |
+
+Full diagnostic evidence: https://github.com/alx-mp/acer-a314-23p-sync-flood
